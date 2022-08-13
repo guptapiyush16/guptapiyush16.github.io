@@ -1,0 +1,22 @@
+<div id="particles-js">
+  <div class="header">
+      <h1>
+      <img src="{{ "/assets/img/myphoto.jpg" | prepend: site.baseurl }}" style="height:150px;width:150px;border-radius: 50%; border: 2px solid #c5e1a5;">
+        <span class="site-title" style="margin-top: 10%">{{site.username}}</span>
+          <span id="typed-out" style="font-size: 30px"> </span>
+          <span id="other" style="font-size: 30px"> </span>
+
+        <!-- <span class="site-description">{{site.email}}</span> -->
+        <!-- <span></span> -->
+      </h1>
+      <div class="header-icons" style="margin-top: 7%">
+        <!-- <a aria-label="Send email" href="#" class="btn btn-info" role="button" onclick="myFunction()"><i class="icon fa fa-envelope"></i></a> -->
+                <!-- <button onclick="myFunction()"><i class="icon fa fa-envelope"></i></button> -->
+
+          <a aria-label="My LinkedIn" target="_blank" href={{site.linkedin_username}}><i class="fab fa-linkedin fa-2xl" style="color: black" aria-hidden="true"></i></a>
+        <!-- <a aria-label="My Google Plus" target="_blank" href="#"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a> -->
+        <a aria-label="My Github" target="_blank" href={{site.github_username}} style="margin-left: 7%"><i class="fab fa-github-square fa-2xl" style="color: black" aria-hidden="true"></i></a>
+      </div>
+  </div>
+  <!-- <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a> -->
+</div>
